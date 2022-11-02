@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="style1.css"/>
+    <link rel="stylesheet" href="stylespage.css"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/295dd3d231.js" crossorigin="anonymous"></script>
     <title>ohmyfood</title>
@@ -13,18 +13,21 @@
         <div class="arrow">
         <i class="fa-solid fa-arrow-left"></i>
         </div>
-        <img src="images/logo/ohmyfood.png" alt="logo">
+        <img class="logoprinc" src="images/logo/ohmyfood.png" alt="logo">
     </header>
-    <div class="imgrestaurant">
-        <img alt="imgrestaurant" src="images/restaurants/3.jpg">
-    </div>
     <main>
+        <div class="imgrestaurant">
+             <img alt="imgrestaurant" src="images/restaurants/3.jpg">
+        </div>
+        <div class="menucomplet">
         <div class="nomrestaurant">
             <h2>À la francaise</h2>
-            <i class="fa-regular fa-heart"></i>
+            <div class="coeur">
+                <i class="fa-solid fa-heart"></i>
+            </div>
         </div>
-        <section class="entree">
-            <h3>ENTREE</h3>
+        <section class="ENT_PLAT_DESS">
+            <h3>ENTREES</h3>
             <div class="lesplats">
                 <div class="plat">
                     <div>
@@ -32,16 +35,88 @@
                         <p class="compositionplat">Aux zestes d'orange</p>
                     </div>
                     <p class="prix">25€</p>
+                    <div class="check">
+                        <p>V</p>
+                    </div>
+                </div>
+                <div class="plat">
+                    <div>
+                        <p class="nomplat">Velouté de légumes d'antan</p>
+                        <p class="compositionplat">Carotte, panais, topinambour</p>
+                    </div>
+                    <p class="prix">35€</p>
+                </div>
+                <div class="plat">
+                    <div>
+                        <p class="nomplat">Soupe à l'oignon</p>
+                        <p class="compositionplat">Revisitée</p>
+                    </div>
+                    <p class="prix">20€</p>
                 </div>
             </div>
         </section>
-        
+        <section class="ENT_PLAT_DESS">
+            <h3>PLATS</h3>
+            <div class="lesplats">
+                <div class="plat">
+                    <div>
+                        <p class="nomplat">Coquilles Saint-Jacques</p>
+                        <p class="compositionplat">Accompagnées d'une purée de panais</p>
+                    </div>
+                    <p class="prix">40€</p>
+                </div>
+                <div class="plat">
+                    <div>
+                        <p class="nomplat">Magret de canard</p>
+                        <p class="compositionplat">Et parmentier de pomme de terre</p>
+                    </div>
+                    <p class="prix">35€</p>
+                </div>
+                <div class="plat">
+                    <div>
+                        <p class="nomplat">Pigeonneau d'Ille-et-Vilaine</p>
+                        <p class="compositionplat">Sur son lit de gnocchis aux légumes</p>
+                    </div>
+                    <p class="prix">44€</p>
+                </div>
+            </div>
+        </section>
+        <section class="ENT_PLAT_DESS">
+            <h3>DESSERTS</h3>
+            <div class="lesplats">
+                <div class="plat">
+                    <div>
+                        <p class="nomplat">Pétales de violettes glacés</p>
+                        <p class="compositionplat">Et purée de noisettes</p>
+                    </div>
+                    <p class="prix">18€</p>
+                </div>
+                <div class="plat">
+                    <div>
+                        <p class="nomplat">Fondant aux chocolat</p>
+                        <p class="compositionplat">Revisité</p>
+                    </div>
+                    <p class="prix">22€</p>
+                </div>
+                <div class="plat">
+                    <div>
+                        <p class="nomplat">Millefeuille croustillant</p>
+                        <p class="compositionplat">Myrtilles et pâte d'amande</p>
+                    </div>
+                    <p class="prix">23€</p>
+                </div>
+            </div>
+        </section>
+        <div class="btn">
+            <button class="btn_explorez">Commander</button>
+        </div>
+        </div>
     </main>
 </body>
 <footer>
-    <img src="images/logo/ohmyfood.png" alt="logo du footer">
+    <img src="images/logo/ohmyfood3.png" class="logo-footer" alt="logo du footer">
     <div class="logo_footer">
-        <i class="fa-regular fa-fork-knife"></i>
+        <i class="fa-solid fa-utensils"></i>
         <p class="texte_footer">Proposer un restaurant</p>
     </div>
     <div class="logo_footer">

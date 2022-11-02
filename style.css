@@ -80,9 +80,9 @@ button {
     display: flex;
     position:relative;
     background-color: #F7F7F7;
-    width: 85vw;
+    width: 90vw;
     justify-content: center;
-    max-width: 480px;
+    max-width: 540px;
     margin: 10px;
     height: 60px;
     align-items: center;
@@ -126,14 +126,13 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
-    max-width: 600px;
 }
 .restaurant {
     display: flex;
     flex-direction: column;
     position: relative;
-    width: 80vw;
-    max-width: 480px;
+    width: 90vw;
+    max-width: 540px;
     background-color: white;
     border-radius: 20px;
     margin-bottom: 20px;
@@ -189,9 +188,33 @@ main {
 footer {
     background-color: #353535;
     color: white;
+    padding-bottom: 30px;
 }
 
 .logo-footer {
-    background-clip: text;
-    background-image: #F7F7F7;
+    margin-top: 20px;
+    margin-left: 20px;
+    height: 22px;
+    margin-bottom: 20px;
+}
+ .texte_footer2 {
+    margin-left: 20px;
+    margin-bottom: 5px;
+    font-size: 20px;
+ }
+ 
+ .texte_footer {
+    margin-left: 10px;
+    margin-bottom: 5px;
+    font-size: 20px;
+    font-weight: 600;
+ }
+
+ .logo_footer {
+    display: flex;
+    margin-left: 20px;
+ }
+
+.fa-utensils {
+    width: 20px;
 }
