@@ -3,119 +3,127 @@
 
 <head>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="public/css/style.css"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/295dd3d231.js" crossorigin="anonymous"></script>
-    <title>ohmyfood</title>
+    <title>oh my food</title>
 </head>
 <body>
-    <header>
-        <img class="logoprinc" src="images/logo/ohmyfood.png" alt="logo">
+    <header class="header">
+        <img class="header__logo" src="images/logo/ohmyfood.png" alt="logo">
+        <div class="header__location">
+            <div class="header__location__input">
+                <div class="header__location__input__dot">
+                    <i class="fa-solid fa-location-dot"></i>
+                </div>
+                <input class="header__location__input__text" type="text" placeholder="Paris, Belleville">
+            </div>
+        </div>
     </header>
-    <div class="location">
-        <div class="location_dot">
-            <i class="fa-solid fa-location-dot"></i>
-        </div>
-        <p class="ville">Paris, Belleville</p>
-    </div>
-    <article class="reservation">
-        <h2>Réservez le menu qui vous convient</h2>
-        <h3>Découvrez des restaurants d'éxeption, sélectionnés par nos soins.</h3>
-        <button class="btn_explorez"> Explorer nos restaurants</button>
-    </article>
-    <section >
-        <p class="titre_fonctionnement">Fonctionnement</p>
-        <div class="fonctionnement">
-            <div class="etapes">
-                <div class="number">1</div>
-                <div class="icone">
-                    <i class="fa-solid fa-mobile"></i>
-                </div>
-                <p class="texte-fonctionnement">Choisissez un restaurant</p>
-            </div>
-            <div class="etapes">
-                <div class="number">2</div>
-                <div class="icone">
-                    <i class="fa-solid fa-bars-staggered"></i>
-                </div>
-                <p class="texte-fonctionnement">Composez votre menu</p>
-            </div>
-            <div class="etapes">
-                <div class="number">3</div>
-                <div class="icone">
-                    <i class="fa-solid fa-utensils"></i>
-                </div>
-                <p class="texte-fonctionnement">Dégustez au restaurant</p>
-            </div>
-        </div>
-    </section>
     <main>
-        <h2>Restaurants</h2>
-        <div class="vignettes">
-            <div class="restaurant">
-                <p class="nouveau">Nouveau</p>
-                <img class="imgrestau" alt="La palette du goût" src="images/restaurants/1.jpg">
-                <div class="insidevignette">
-                    <div>
-                        <p class="nom_restaurant">La palette du goût</p>
-                        <p class="quartier">Menilmonant</p>
+        <article class="reservation">
+            <h2 class="reservation__title">Réservez le menu qui vous convient</h2>
+            <h3>Découvrez des restaurants d'éxeption, sélectionnés par nos soins.</h3>
+            <button class="reservation__btn"> Explorer nos restaurants</button>
+        </article>
+        <section>
+            <h2>Fonctionnement</h2>
+            <div class="fonctionnement">
+                <div class="fonctionnement__etapes">
+                    <div class="fonctionnement__etapes__number">1</div>
+                    <div class="fonctionnement__etapes__icone">
+                        <i class="fa-solid fa-mobile"></i>
                     </div>
-                    <div class="coeur">
-                        <i class="fa-solid fa-heart"></i>
+                    <p class="fonctionnement__etapes__texte">Choisissez un restaurant</p>
+                </div>
+                <div class="fonctionnement__etapes">
+                    <div class="fonctionnement__etapes__number">2</div>
+                    <div class="fonctionnement__etapes__icone">
+                        <i class="fa-solid fa-bars-staggered"></i>
+                    </div>
+                    <p class="fonctionnement__etapes__texte">Composez votre menu</p>
+                </div>
+                <div class="fonctionnement__etapes">
+                    <div class="fonctionnement__etapes__number">3</div>
+                    <div class="fonctionnement__etapes__icone">
+                        <i class="fa-solid fa-utensils"></i>
+                    </div>
+                    <p class="fonctionnement__etapes__texte">Dégustez au restaurant</p>
+                </div>
+            </div>
+        </section>
+        <section class="main-cards">
+            <h2>Restaurants</h2>
+            <div class="cards">
+                <div class="restaurant">
+                    <p class="restaurant__badge">Nouveau</p>
+                    <img class="restaurant__img" alt="La palette du goût" src="images/restaurants/1.jpg">
+                    <div class="restaurant__content">
+                        <div>
+                            <p class="restaurant__content__name">La palette du goût</p>
+                            <p class="restaurant__content__city">Menilmonant</p>
+                        </div>
+                        <div class="restaurant__content__heart">
+                            <i class="fa-solid fa-heart"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="restaurant">
+                    <p class="restaurant__badge">Nouveau</p>
+                    <img class="restaurant__img" alt="La note enchantée" src="images/restaurants/2.jpg">
+                    <div class="restaurant__content">
+                        <div>
+                            <p class="restaurant__content__name">La note enchantée</p>
+                            <p class="restaurant__content__city">Charonne</p>
+                        </div>
+                        <div class="restaurant__content__heart">
+                            <i class="fa-solid fa-heart"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="restaurant">
+                    <img class="restaurant__img" alt="A la francaise" src="images/restaurants/3.jpg">
+                    <div class="restaurant__content">
+                        <div>
+                            <p class="restaurant__content__name">À la francaise</p>
+                            <p class="restaurant__content__city">Cité rouge</p>
+                        </div>
+                        <div class="restaurant__content__heart">
+                            <i class="fa-solid fa-heart"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="restaurant">
+                    <img class="restaurant__img" alt="Le délice des sens" src="images/restaurants/4.jpg">
+                    <div class="restaurant__content">
+                        <div>
+                            <p class="restaurant__content__name">Le délice des sens</p>
+                            <p class="restaurant__content__city">Folie-Méricourt</p>
+                        </div>
+                        <div class="restaurant__content__heart">
+                            <i class="fa-solid fa-heart"></i>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class="restaurant">
-                <p class="nouveau">Nouveau</p>
-                <img class="imgrestau" alt="La note enchantée" src="images/restaurants/2.jpg">
-                <div class="insidevignette">
-                    <div>
-                        <p class="nom_restaurant">La note enchantée</p>
-                        <p class="quartier">Charonne</p>
-                    </div>
-                    <div class="coeur">
-                        <i class="fa-solid fa-heart"></i>
-                    </div>
-                </div>    
-            </div>
-            <div class="restaurant">
-                <img class="imgrestau" alt="A la francaise" src="images/restaurants/3.jpg">
-                <div class="insidevignette">
-                    <div>
-                        <p class="nom_restaurant">À la francaise</p>
-                        <p class="quartier">Cité rouge</p>
-                    </div>
-                    <div class="coeur">
-                        <i class="fa-solid fa-heart"></i>
-                    </div>
-                </div> 
-            </div>
-            <div class="restaurant">
-                <img class="imgrestau" alt="Le délice des sens" src="images/restaurants/4.jpg">
-                <div class="insidevignette">
-                    <div>
-                        <p class="nom_restaurant">Le délice des sens</p>
-                        <p class="quartier">Folie-Méricourt</p>
-                    </div>
-                    <div class="coeur">
-                        <i class="fa-solid fa-heart"></i>
-                    </div>
-                </div>
-            </div>
-        </div>
+        </section>
     </main>
 </body>
-<footer>
-    <img src="images/logo/ohmyfood3.png" class="logo-footer" alt="logo du footer">
-    <div class="logo_footer">
+<footer class="footer">
+    <img src="images/logo/ohmyfood3.png" class="footer__img" alt="logo du footer">
+    <div class="footer__item footer__item--bold">
         <i class="fa-solid fa-utensils"></i>
-        <p class="texte_footer">Proposer un restaurant</p>
+        <p >Proposer un restaurant</p>
     </div>
-    <div class="logo_footer">
+    <div class="footer__item footer__item--bold">
         <i class="fa-solid fa-handshake"></i>
-        <p class="texte_footer">Devenir partenaire</p>
+        <p>Devenir partenaire</p>
     </div>
-    <p class="texte_footer2">Mention légales</p>
-    <p class="texte_footer2">Contact</p>
+    <div class="footer__item">
+        <p>Mention légales</p>
+    </div>
+    <div class="footer__item">
+        <p>Contact</p>
+    </div>
 </footer>
 </html>

@@ -17,7 +17,6 @@ html {
 .arrow {
     position: absolute;
     left: 15px;
-
 }
 header {
     display: flex;
@@ -52,6 +51,8 @@ main{
     justify-content: space-between;
     align-items: center;
     padding: 8px;
+    
+    
 
 }
 .menucomplet {
@@ -121,33 +122,28 @@ button {
     background: linear-gradient(#ee74db, #9d5adc)
 
 }
-
-.plat:active {
-    & .check {
-        background-color: ;
+.plat:hover {
+    .check {
+        transform: translatex(-80px);
     }
-    
+}
+
 .btn {
     margin-bottom: 30px;
 }
 
-.check {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: aquamarine;
-    height: 51px ;
-    width: 80px;
-    position:absolute;
-    right:-80px;
-    transition: transform 330ms ease-in-out
+
+
+/* .check:hover {
+    transform: translatex(-80px);
 }
 
-
-
-
-
-
+.checkrotate{
+    transition: transform 330ms ease-in-out;
+}
+.checkrotate:hover {
+transform: rotate(360deg); */
+}
 
 
 footer {
