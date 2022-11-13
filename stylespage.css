@@ -1,135 +1,15 @@
-@import url('https://fonts.googleapis.com/css2?family=Oleo+Script&display=swap');
-
-html {
-    -webkit-text-size-adjust: 100%;
-    scroll-behavior: smooth;
-}
-
-* {
-    max-width: 600px;
-    margin: 0px;
-}
-
-.logoprinc {
-    height: 40px;
-}
-
-.arrow {
-    position: absolute;
-    left: 15px;
-}
-header {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 60px;
-}
-
-.imgrestaurant {
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    object-fit: cover;
-    height: 60vw;
-    max-height: 400px;
-    overflow: hidden;
-    
-}
-
-main{
-    display: flex;
-    flex-direction: column;
-
-}
-.plat {
-    position: relative ;
-    background-color: white;
-    margin: 15px 0;
-    border-radius: 15px;
-    display: flex;
-    height:35px;
-    justify-content: space-between;
-    align-items: center;
-    padding: 8px;
-    
-    
-
-}
-.menucomplet {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    border-top-left-radius: 40px;
-    border-top-right-radius: 40px;
-    background-color: #F7F7F7;
-    margin-top: -30px;
-}
 
 
-.nomrestaurant {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 90vw;
-    max-width: 569px;
-    font-size: 22px;
-    margin: 30px 15px;
-
-}
-
-.coeur {
-    margin-right: 20px;
-    font-size: 30px;
-    font-weight: 100;
-}
-
-.coeur:active {
-    color: transparent;
-    background-clip:text;
-    background-image: linear-gradient(#ee74db, #9d5adc);
-}
 
 
-.ENT_PLAT_DESS {
-    width: 95vw;
-    max-width: 569px;
-    margin: 20px 15px;
 
-}
-h2 {
-    font-family: 'Oleo Script', cursive;
-}
-h3 {
-    display: flex;
-    font-weight: 200;
-    font-size: 18px;
-    border-bottom: solid lightseagreen;
-    width: 40px; 
-}
 
-.nomplat {
-    font-weight: 600;
-    font-size: 18px;
-}
-
-button {
-    all: unset;
-    border-radius: 30px;
-    height: 45px;
-    width: 200px;
-    text-align: center;
-    color: white;
-    background: linear-gradient(#ee74db, #9d5adc)
 
 }
 .plat:hover {
     .check {
         transform: translatex(-80px);
     }
-}
-
-.btn {
-    margin-bottom: 30px;
 }
 
 
@@ -145,37 +25,3 @@ button {
 transform: rotate(360deg); */
 }
 
-
-footer {
-    background-color: #353535;
-    color: white;
-    padding-bottom: 30px;
-}
-
-.logo-footer {
-    margin-top: 20px;
-    margin-left: 20px;
-    height: 22px;
-    margin-bottom: 20px;
-}
- .texte_footer2 {
-    margin-left: 20px;
-    margin-bottom: 5px;
-    font-size: 20px;
- }
- 
- .texte_footer {
-    margin-left: 10px;
-    margin-bottom: 5px;
-    font-size: 20px;
-    font-weight: 600;
- }
-
- .logo_footer {
-    display: flex;
-    margin-left: 20px;
- }
-
-.fa-utensils {
-    width: 20px;
-}
