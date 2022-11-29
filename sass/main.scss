@@ -225,13 +225,20 @@ h3 {
     margin: 20px;
     font-size: 30px;
     font-weight: 100;
-    &__2{
-        display: none;
+.heart__2{
+    display: none;
     }
-    &__1:acti{
+    &:hover{
+        .heart__1{
+        display: none;
+
+        }
+        .heart__2{
+        display: block;
         color: transparent;
-        background-clip:texte;
+        background-clip: text;
         background-image: linear-gradient(#ee74db, #9d5adc);
+        }
     }
 }
 
@@ -316,18 +323,6 @@ h3 {
         max-width: 569px;
         font-size: 22px;
         margin: 30px 15px;
-
-        &__heart {
-            margin-right: 20px;
-            font-size: 30px;
-            font-weight: 100;
-        }
-
-        &__heart:active {
-            color: transparent;
-            background-clip: text;
-            background-image: linear-gradient(#ee74db, #9d5adc);
-        }
     }
 }
 
@@ -420,7 +415,7 @@ button {
     width: 100vw;
     height: 100vh;
     font-size: 60px;
-    animation: fade-out 4s;
+    animation: fade-out 0s;
     animation-fill-mode: forwards;
     z-index: 2;
 

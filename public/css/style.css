@@ -198,14 +198,22 @@ h3 {
   font-size: 20px;
   margin-top: 5px;
 }
-.restaurant__content__heart {
+
+.heart {
   margin: 20px;
   font-size: 30px;
   font-weight: 100;
 }
-.restaurant__content__heart:active {
+.heart .heart__2 {
+  display: none;
+}
+.heart:hover .heart__1 {
+  display: none;
+}
+.heart:hover .heart__2 {
+  display: block;
   color: transparent;
-  background-clip: texte;
+  background-clip: text;
   background-image: linear-gradient(#ee74db, #9d5adc);
 }
 
@@ -283,16 +291,6 @@ h3 {
   font-size: 22px;
   margin: 30px 15px;
 }
-.menu__name__heart {
-  margin-right: 20px;
-  font-size: 30px;
-  font-weight: 100;
-}
-.menu__name__heart:active {
-  color: transparent;
-  background-clip: text;
-  background-image: linear-gradient(#ee74db, #9d5adc);
-}
 
 .steps {
   width: 95vw;
@@ -363,7 +361,7 @@ button {
 }
 
 .loader {
-  position: absolute;
+  position: fixed;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -372,7 +370,7 @@ button {
   width: 100vw;
   height: 100vh;
   font-size: 60px;
-  animation: fade-out 4s;
+  animation: fade-out 0s;
   animation-fill-mode: forwards;
   z-index: 2;
 }
