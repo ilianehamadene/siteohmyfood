@@ -370,7 +370,7 @@ button {
   width: 100vw;
   height: 100vh;
   font-size: 60px;
-  animation: fade-out 0s;
+  animation: fade-out 4s;
   animation-fill-mode: forwards;
   z-index: 2;
 }
