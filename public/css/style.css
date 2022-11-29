@@ -207,10 +207,10 @@ h3 {
 .heart .heart__2 {
   display: none;
 }
-.heart:hover .heart__1 {
+.heart:active .heart__1 {
   display: none;
 }
-.heart:hover .heart__2 {
+.heart:active .heart__2 {
   display: block;
   color: transparent;
   background-clip: text;
@@ -340,13 +340,13 @@ h3 {
   font-size: 20px;
   transition: transform 400ms ease-in-out;
 }
-.steps__details:hover .steps__details__valide {
+.steps__details:active .steps__details__valide {
   transform: translatex(-60px);
 }
-.steps__details:hover .steps__details__valide__rotate {
+.steps__details:active .steps__details__valide__rotate {
   transform: rotate(360deg);
 }
-.steps__details:hover .steps__details__prix {
+.steps__details:active .steps__details__prix {
   transform: translatex(-60px);
 }
 

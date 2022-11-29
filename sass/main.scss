@@ -228,7 +228,7 @@ h3 {
 .heart__2{
     display: none;
     }
-    &:hover{
+    &:active{
         .heart__1{
         display: none;
 
@@ -378,7 +378,7 @@ h3 {
             }
         }
 
-        &:hover {
+        &:active {
             .steps__details__valide {
                 transform: translatex(-60px);
 
