@@ -218,22 +218,22 @@ h3 {
             font-size: 20px;
             margin-top: 5px;
         }
-
-        &__heart {
-            margin: 20px;
-            font-size: 30px;
-            font-weight: 100;
-
-            &:active {
-                color: transparent;
-                background-clip:texte;
-                background-image: linear-gradient(#ee74db, #9d5adc);
-            }
-        }
     }
 }
 
-
+.heart {
+    margin: 20px;
+    font-size: 30px;
+    font-weight: 100;
+    &__2{
+        display: none;
+    }
+    &__1:acti{
+        color: transparent;
+        background-clip:texte;
+        background-image: linear-gradient(#ee74db, #9d5adc);
+    }
+}
 
 
 .footer {
@@ -411,7 +411,7 @@ button {
 
 // ----------keyframes------------
 .loader {
-    position: absolute;
+    position: fixed;
     display: flex;
     flex-direction: column;
     justify-content: center;
