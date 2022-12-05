@@ -235,6 +235,7 @@ h3 {
         }
         .heart__2{
         display: block;
+        animation: fade-in 1s forwards;
         color: transparent;
         background-clip: text;
         background-image: linear-gradient(#ee74db, #9d5adc);
@@ -385,7 +386,7 @@ h3 {
                 &__rotate {
                     transform: rotate(360deg);
                 }
-            }
+            } 
 
             .steps__details__prix {
                 transform: translatex(-60px);
